@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,300&family=EB+Garamond:ital,wght@1,500&family=Old+Standard+TT&display=swap');
+
+$font-title: "Old Standard TT" , sans-serif;
+$font-body: "EB Garamond", cursive;
+$font-links: "Cormorant", cursive;
+
+$color-secondary: #ceb0f3;
+$color-primary: #026b87;
+$color-white: #fafafa;
+$color-footer: #fffdd0;
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: $font-body;
+    color: $color-primary;
+    text-align: center;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    font-family: $font-links;
+}
+nav{
+    height: 50px;
+    background-color: $color-footer;
+    border-bottom: 2px solid $color-secondary;
+    color: $color-primary;
+    font-size: medium;
+    font-weight: bold ;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+div{
+   h1{ 
+    font-family: $font-title;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 75px;
+   }
+    p{
+        margin:0 1.45%;
+        font-family: $font-body;
+    }
+}
+
+main{
+    h1{
+        padding: 10px 10px;
+        text-align: left;
+    }
+}
+
+footer{
+    background-color: $color-footer;
+    font-size: 20px;
+    height: auto;
+    padding: 10px 10px;
+}
+
+.PortfolioProject{
+    width: auto;
+    background-color: $color-white;
+    text-align: center;
+    padding: 20px 20px;
+    color: $color-primary;
+    display: flex;
+    flex-direction: row;
+}
+
+.SelfIntro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    padding: 5px;
+}
