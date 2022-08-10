@@ -4,13 +4,11 @@ $font-title: "Old Standard TT" , sans-serif;
 $font-body: "EB Garamond", cursive;
 $font-links: "Cormorant", cursive;
 
-
 $color-secondary: #ceb0f3;
 $color-primary: #026b87;
 $color-white: #fafafa;
 $color-footer: #fffdd0;
 $color-underline: #a10606;
-
 
 *{
     margin: 0;
@@ -27,4 +25,87 @@ a:visited {
     font-family: $font-links;
     height: auto;
     padding: 5px;
+}
+
+nav{
+    height: 50px;
+    background-color: $color-footer;
+    border-bottom: 2px solid $color-secondary;
+    color: $color-primary;
+    font-size: medium;
+    font-weight: bold ;
+    padding: 10px 20px;
+}
+
+.Title{
+    margin: 10px;
+   h1{ 
+    font-family: $font-title;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 4.5rem;
+    text-decoration: underline $color-underline;
+   }
+    p{
+        margin:0 1.45%;
+        font-family: $font-body;
+    }
+}
+
+.subTitle{
+    padding: 10px 10px;
+    text-align: left;
+    font-size: 3rem;
+    text-decoration: underline $color-underline;
+ } 
+
+.PortfolioProject{
+    width: 200px;
+    height: 200px;
+    background-color: $color-white;
+    text-align: left;
+    margin: 10px 10px;
+    padding: 20px 20px;
+    color: $color-primary;
+    border: 2px dashed $color-secondary;
+    img{
+        object-fit: contain;
+    }
+}
+
+.SelfIntro{
+    img{
+        height: 300px;
+        width: auto;
+        padding: 10px 10px;
+        border: 2px dashed $color-secondary;
+        background-color: $color-white;
+    }
+    p{
+        padding: 10px;
+    }
+}
+.SelfIntroLeft{
+    height: auto;
+    width: 300px;
+    margin: 10px;
+    border-bottom: 2px dashed $color-secondary;
+}
+
+ .About-Box{
+    text-align: start;
+    width: 350px;
+    padding: 20px;
+    li{
+        padding: 10px;
+        list-style: none;
+    }
+}
+
+footer{
+    background-color: $color-footer;
+    font-size: 20px;
+    border-top: 2px solid $color-secondary;
+    height: auto;
+    padding: 10px 10px;
 }
