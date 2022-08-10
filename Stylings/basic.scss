@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,300&family=EB+Garamond:ital,wght@1,500&family=Old+Standard+TT&display=swap');
+
+$font-title: "Old Standard TT" , sans-serif;
+$font-body: "EB Garamond", cursive;
+$font-links: "Cormorant", cursive;
+
+
+$color-secondary: #ceb0f3;
+$color-primary: #026b87;
+$color-white: #fafafa;
+$color-footer: #fffdd0;
+$color-underline: #a10606;
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: $font-body;
+    color: $color-primary;
+    text-align: center;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    font-family: $font-links;
+    height: auto;
+    padding: 5px;
+}
