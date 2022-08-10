@@ -34,7 +34,8 @@ nav {
 
 footer {
   display: flex;
-  justify-content: right;
+  justify-content: center;
+  align-items: center;
 }
 
 * {
@@ -59,17 +60,18 @@ nav {
   background-color: #fffdd0;
   border-bottom: 2px solid #ceb0f3;
   color: #026b87;
-  font-size: medium;
+  font-size: 1.5rem;
   font-weight: bold;
   padding: 10px 20px;
 }
 
-.Title {
-  margin: 10px;
+a:hover {
+  text-decoration: underline #a10606;
 }
+
 .Title h1 {
   font-family: "Old Standard TT", sans-serif;
-  padding: 10px 20px;
+  padding: 50px;
   text-align: center;
   font-size: 4.5rem;
   text-decoration: underline #a10606;
@@ -80,86 +82,7 @@ nav {
 }
 
 .subTitle {
-  padding: 10px 10px;
-  text-align: left;
-  font-size: 3rem;
-  text-decoration: underline #a10606;
-}
-
-.PortfolioProject {
-  width: 200px;
-  height: 200px;
-  background-color: #fafafa;
-  text-align: left;
-  margin: 10px 10px;
-  padding: 20px 20px;
-  color: #026b87;
-  border: 2px dashed #ceb0f3;
-}
-.PortfolioProject img {
-  object-fit: contain;
-}
-
-.SelfIntro img {
-  height: 300px;
-  width: auto;
-  padding: 10px 10px;
-  border: 2px dashed #ceb0f3;
-  background-color: #fafafa;
-}
-.SelfIntro p {
-  padding: 10px;
-}
-
-.SelfIntroLeft {
-  height: auto;
-  width: 300px;
-  margin: 10px;
-  border-bottom: 2px dashed #ceb0f3;
-}
-
-.About-Box {
-  text-align: start;
-  width: 350px;
   padding: 20px;
-}
-.About-Box li {
-  padding: 10px;
-  list-style: none;
-}
-
-footer {
-  background-color: #fffdd0;
-  font-size: 20px;
-  border-top: 2px solid #ceb0f3;
-  height: auto;
-  padding: 10px 10px;
-}
-
-nav {
-  height: 50px;
-  background-color: #fffdd0;
-  border-bottom: 2px solid #ceb0f3;
-  color: #026b87;
-  font-size: medium;
-  font-weight: bold;
-  padding: 10px 20px;
-}
-
-.Title h1 {
-  font-family: "Old Standard TT", sans-serif;
-  padding: 50px 20px;
-  text-align: center;
-  font-size: 4.5rem;
-  text-decoration: underline #a10606;
-}
-.Title p {
-  margin: 0 1.45%;
-  font-family: "EB Garamond", cursive;
-}
-
-.subTitle {
-  padding: 10px 10px;
   text-align: left;
   font-size: 2rem;
   text-decoration: underline #a10606;
@@ -170,20 +93,34 @@ nav {
   height: auto;
   background-color: #fafafa;
   text-align: left;
-  margin: 10px 10px;
-  padding: 20px 20px;
+  margin: 20px;
+  border-radius: 20px;
   color: #026b87;
-  border: 2px dashed #ceb0f3;
+  border: 2px dashed #a10606;
 }
 .PortfolioProject img {
-  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3px;
+  width: 80%;
+  opacity: 0.5;
+}
+.PortfolioProject img:hover {
+  background-color: #fffdd0;
+  opacity: 1;
+}
+
+.Technical {
+  text-align: center;
 }
 
 .SelfIntro img {
   height: 300px;
   width: auto;
   padding: 10px 10px;
-  border: 2px dashed #ceb0f3;
+  border: 2px dashed #a10606;
+  border-radius: 100px;
   background-color: #fafafa;
 }
 .SelfIntro p {
@@ -194,9 +131,12 @@ nav {
   height: auto;
   width: 300px;
   margin: 10px;
-  border-bottom: 2px dashed #ceb0f3;
+  border-bottom: 2px dashed #a10606;
 }
 
+.About {
+  padding: 20px;
+}
 .About-Box {
   text-align: start;
   width: 350px;
@@ -213,4 +153,7 @@ footer {
   border-top: 2px solid #ceb0f3;
   height: auto;
   padding: 10px 10px;
+}
+footer img {
+  width: 64px;
 }

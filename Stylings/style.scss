@@ -1,104 +1,109 @@
 @import "./layout.scss";
-@import"./basic.scss";
+@import "./basic.scss";
 @import "./components.scss";
 
-
-nav{
-    height: 50px;
-    background-color: $color-footer;
-    border-bottom: 2px solid $color-secondary;
-    color: $color-primary;
-    font-size: medium;
-    font-weight: bold ;
-    padding: 10px 20px;
+nav {
+  height: 50px;
+  background-color: $color-footer;
+  border-bottom: 2px solid $color-secondary;
+  color: $color-primary;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
 }
 
-.Title{
-   h1{ 
+a:hover{
+    text-decoration: underline $color-underline;
+}
+
+.Title {
+  h1 {
     font-family: $font-title;
-    padding: 50px 20px;
+    padding: 50px;
     text-align: center;
     font-size: 4.5rem;
     text-decoration: underline $color-underline;
-   }
-    p{
-        margin:0 1.45%;
-        font-family: $font-body;
-    }
+  }
+  p {
+    margin: 0 1.45%;
+    font-family: $font-body;
+  }
 }
 
-.subTitle{
+.subTitle {
+  padding: 20px;
+  text-align: left;
+  font-size: 2rem;
+  text-decoration: underline $color-underline;
+}
+
+.PortfolioProject {
+  width: 200px;
+  height: auto;
+  background-color: $color-white;
+  text-align: left;
+  margin: 20px;
+  border-radius: 20px;
+  
+  color: $color-primary;
+  border: 2px dashed $color-underline;
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    width: 80%;
+    opacity: 0.5;
+  }
+  img:hover{
+    background-color: $color-footer;
+    opacity: 1;
+  }
+}
+
+.Technical{
+    text-align: center;
+} 
+
+.SelfIntro {
+  img {
+    height: 300px;
+    width: auto;
     padding: 10px 10px;
-    text-align: left;
-    font-size: 2rem;
-    text-decoration: underline $color-underline;
- } 
-
-.PortfolioProject{
-    width: 200px;
-    height: auto;
+    border: 2px dashed $color-underline;
+    border-radius: 100px;
     background-color: $color-white;
-    text-align: left;
-    margin: 10px 10px;
-    padding: 20px 20px;
-    color: $color-primary;
-    border: 2px dashed $color-secondary;
-    img{
-        object-fit: contain;
-    }
+  }
+  p {
+    padding: 10px;
+  }
 }
-
-.SelfIntro{
-    img{
-        height: 300px;
-        width: auto;
-        padding: 10px 10px;
-        border: 2px dashed $color-secondary;
-        background-color: $color-white;
-    }
-    p{
-        padding: 10px;
-    }
+.SelfIntroLeft {
+  height: auto;
+  width: 300px;
+  margin: 10px;
+  border-bottom: 2px dashed $color-underline;
 }
-.SelfIntroLeft{
-    height: auto;
-    width: 300px;
-    margin: 10px;
-    border-bottom: 2px dashed $color-secondary;
-}
-
- .About-Box{
+.About {
+    padding: 20px;
+  &-Box {
     text-align: start;
     width: 350px;
     padding: 20px;
-    li{
-        padding: 10px;
-        list-style: none;
+    li {
+      padding: 10px;
+      list-style: none;
     }
+  }
 }
 
-footer{
-    background-color: $color-footer;
-    font-size: 20px;
-    border-top: 2px solid $color-secondary;
-    height: auto;
-    padding: 10px 10px;
+footer {
+  background-color: $color-footer;
+  font-size: 20px;
+  border-top: 2px solid $color-secondary;
+  height: auto;
+  padding: 10px 10px;
+  img{
+    width: 64px;
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
