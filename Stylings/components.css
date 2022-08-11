@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,300&family=EB+Garamond:ital,wght@1,500&family=Old+Standard+TT&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "EB Garamond", cursive;
+  color: #01637e;
+  text-align: center;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  font-family: "Cormorant", cursive;
+  height: auto;
+  padding: 5px;
+}
+
+.filter-red {
+  filter: invert(80%) sepia(58%) saturate(6884%) hue-rotate(372deg) brightness(106%) contrast(100%);
+  opacity: 0.8;
+}
+
+.filter-red:hover {
+  opacity: 1;
+}
+
+nav {
+  height: 50px;
+  background-color: #fffdd0;
+  border-bottom: 2px solid #ceb0f3;
+  color: #01637e;
+}
+
+a:hover {
+  text-decoration: underline #a10606;
+}
+
+.Intro {
+  padding-bottom: 20px;
+}
+.Intro h1 {
+  font-family: "Old Standard TT", sans-serif;
+  padding: 50px;
+  text-align: center;
+  font-size: 4rem;
+  text-decoration: underline #a10606;
+}
+.Intro p {
+  margin: 0 1.45%;
+  font-family: "EB Garamond", cursive;
+}
+
+.SelfIntro img {
+  height: 300px;
+  width: auto;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  border: 2px dashed #a10606;
+  border-radius: 100px;
+  background-color: #fffdd0;
+}
+.SelfIntro p {
+  padding: 10px;
+}
+
+.SelfIntroLeft {
+  height: auto;
+  width: 300px;
+  margin: 10px;
+  border-bottom: 2px dashed #a10606;
+}
+
+.subTitle {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: underline #a10606;
+  margin-top: 10px;
+}
+
+.PortfolioProjects {
+  padding: 20px;
+}
+.PortfolioProjects .PortfolioProject {
+  width: 200px;
+  height: auto;
+  text-align: left;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: #fffdd0;
+  color: #01637e;
+  border: 2px dashed #a10606;
+}
+.PortfolioProjects .PortfolioProject img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3px;
+  width: 80%;
+  opacity: 0.5;
+}
+.PortfolioProjects .PortfolioProject img:hover {
+  background-color: #fffdd0;
+  opacity: 1;
+}
+
+#myPortfolio {
+  border-top: 2px solid pink;
+}
+
+.Technical {
+  text-align: center;
+  padding: 20px;
+}
+.Technical-Skills {
+  width: 100px;
+  height: auto;
+}
+.Technical-Skills img {
+  width: 64px;
+  height: 64px;
+}
+.Technical-Skills p {
+  padding: 10%;
+}
+
+#TechTitle {
+  border-top: 2px solid pink;
+}
+
+.About {
+  padding-bottom: 40px;
+}
+.About-Box {
+  text-align: start;
+  width: 350px;
+}
+.About-Box li {
+  padding: 10px;
+  list-style: none;
+}
+.About-Box li:hover summary {
+  color: #a10606;
+}
+
+#aboutMe {
+  border-top: 2px solid pink;
+}
+
+footer {
+  background-color: #fffdd0;
+  font-size: 20px;
+  border-top: 2px solid #ceb0f3;
+  height: auto;
+  padding: 10px 10px;
+}
+footer img {
+  width: 64px;
+  opacity: 0.5;
+}
+footer img:hover {
+  opacity: 1;
+}

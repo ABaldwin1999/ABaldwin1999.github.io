@@ -1,5 +1,144 @@
-//@use "basic.scss" as *;
+@use "basic.scss" as *;
 
+nav {
+    height: 50px;
+    background-color: $color-tertiary;
+    border-bottom: 2px solid $color-secondary;
+    color: $color-primary;
 
+  }
+  
+  a:hover{
+      text-decoration: underline $color-underline;
+  }
+  
+  .Intro {
+    padding-bottom: 20px;
+    h1 {
+      font-family: $font-title;
+      padding: 50px;
+      text-align: center;
+      font-size: 4rem;
+      text-decoration: underline $color-underline;
+    }
+    p {
+      margin: 0 1.45%;
+      font-family: $font-body;
+    }
+  }
+
+  .SelfIntro {
+    img {
+      height: 300px;
+      width: auto;
+      padding: 10px 10px;
+      margin-bottom: 10px;
+      border: 2px dashed $color-underline;
+      border-radius: 100px;
+      background-color: $color-tertiary;
+    }
+    p {
+      padding: 10px;
+    }
+  }
+  .SelfIntroLeft {
+    height: auto;
+    width: 300px;
+    margin: 10px;
+    border-bottom: 2px dashed $color-underline;
+  }
+  
+  .subTitle {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: underline $color-underline;
+    margin-top: 10px;
+  }
+
+  .PortfolioProjects{
+    padding: 20px;
+    .PortfolioProject {
+      width: 200px;
+      height: auto;
+      text-align: left;
+      margin: 10px;
+      border-radius: 20px;
+      background-color: $color-tertiary;
+      color: $color-primary;
+      border: 2px dashed $color-underline;
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 3px;
+        width: 80%;
+        opacity: 0.5;
+      }
+      img:hover{
+        background-color: $color-tertiary;
+        opacity: 1;
+      }
+    }
+  }
+  #myPortfolio{
+    border-top: 2px solid $color-pink;
+  }
+
+  .Technical{
+      text-align: center;
+      padding: 20px;
+      &-Skills{
+        width: 100px;
+        height: auto;
+        img{
+          width: 64px;
+          height: 64px;
+        }
+        p{
+          padding: 10%;
+        }
+      }
+  } 
+#TechTitle{
+    border-top: 2px solid $color-pink;
+  }
+
+  .About {
+      padding-bottom: 40px;
+    &-Box {
+      text-align: start;
+      width: 350px;
+      li {
+        padding: 10px;
+        list-style: none;
+      }
+      li:hover{
+        summary{
+          color: $color-underline;
+        }
+       
+      }
+    }
+  }
+  #aboutMe{
+    border-top: 2px solid $color-pink;
+  }
+  
+footer{
+    background-color: $color-tertiary;
+    font-size: 20px;
+    border-top: 2px solid $color-secondary;
+    height: auto;
+    padding: 10px 10px;
+    img{
+      width: 64px;
+      opacity: 0.5;
+    }
+    img:hover{
+      opacity: 1;
+    }
+  }
+  
  
  

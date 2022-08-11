@@ -3,6 +3,9 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
 }
 
 .SelfIntro {
@@ -24,6 +27,13 @@ nav {
   height: 0;
 }
 
+.Technical {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 20px 20px;
+}
+
 .About {
   padding: 1% 10%;
   display: flex;
@@ -43,7 +53,7 @@ footer {
   padding: 0;
   box-sizing: border-box;
   font-family: "EB Garamond", cursive;
-  color: #026b87;
+  color: #01637e;
   text-align: center;
 }
 
@@ -55,73 +65,49 @@ a:visited {
   padding: 5px;
 }
 
+.filter-red {
+  filter: invert(80%) sepia(58%) saturate(6884%) hue-rotate(372deg) brightness(106%) contrast(100%);
+  opacity: 0.8;
+}
+
+.filter-red:hover {
+  opacity: 1;
+}
+
 nav {
   height: 50px;
   background-color: #fffdd0;
   border-bottom: 2px solid #ceb0f3;
-  color: #026b87;
-  font-size: 1.5rem;
-  font-weight: bold;
-  padding: 10px 20px;
+  color: #01637e;
 }
 
 a:hover {
   text-decoration: underline #a10606;
 }
 
-.Title h1 {
+.Intro {
+  padding-bottom: 20px;
+}
+.Intro h1 {
   font-family: "Old Standard TT", sans-serif;
   padding: 50px;
   text-align: center;
-  font-size: 4.5rem;
+  font-size: 4rem;
   text-decoration: underline #a10606;
 }
-.Title p {
+.Intro p {
   margin: 0 1.45%;
   font-family: "EB Garamond", cursive;
-}
-
-.subTitle {
-  padding: 20px;
-  text-align: left;
-  font-size: 2rem;
-  text-decoration: underline #a10606;
-}
-
-.PortfolioProject {
-  width: 200px;
-  height: auto;
-  background-color: #fafafa;
-  text-align: left;
-  margin: 20px;
-  border-radius: 20px;
-  color: #026b87;
-  border: 2px dashed #a10606;
-}
-.PortfolioProject img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 3px;
-  width: 80%;
-  opacity: 0.5;
-}
-.PortfolioProject img:hover {
-  background-color: #fffdd0;
-  opacity: 1;
-}
-
-.Technical {
-  text-align: center;
 }
 
 .SelfIntro img {
   height: 300px;
   width: auto;
   padding: 10px 10px;
+  margin-bottom: 10px;
   border: 2px dashed #a10606;
   border-radius: 100px;
-  background-color: #fafafa;
+  background-color: #fffdd0;
 }
 .SelfIntro p {
   padding: 10px;
@@ -134,17 +120,81 @@ a:hover {
   border-bottom: 2px dashed #a10606;
 }
 
-.About {
+.subTitle {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: underline #a10606;
+  margin-top: 10px;
+}
+
+.PortfolioProjects {
   padding: 20px;
+}
+.PortfolioProjects .PortfolioProject {
+  width: 200px;
+  height: auto;
+  text-align: left;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: #fffdd0;
+  color: #01637e;
+  border: 2px dashed #a10606;
+}
+.PortfolioProjects .PortfolioProject img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3px;
+  width: 80%;
+  opacity: 0.5;
+}
+.PortfolioProjects .PortfolioProject img:hover {
+  background-color: #fffdd0;
+  opacity: 1;
+}
+
+#myPortfolio {
+  border-top: 2px solid pink;
+}
+
+.Technical {
+  text-align: center;
+  padding: 20px;
+}
+.Technical-Skills {
+  width: 100px;
+  height: auto;
+}
+.Technical-Skills img {
+  width: 64px;
+  height: 64px;
+}
+.Technical-Skills p {
+  padding: 10%;
+}
+
+#TechTitle {
+  border-top: 2px solid pink;
+}
+
+.About {
+  padding-bottom: 40px;
 }
 .About-Box {
   text-align: start;
   width: 350px;
-  padding: 20px;
 }
 .About-Box li {
   padding: 10px;
   list-style: none;
+}
+.About-Box li:hover summary {
+  color: #a10606;
+}
+
+#aboutMe {
+  border-top: 2px solid pink;
 }
 
 footer {
@@ -156,4 +206,8 @@ footer {
 }
 footer img {
   width: 64px;
+  opacity: 0.5;
+}
+footer img:hover {
+  opacity: 1;
 }

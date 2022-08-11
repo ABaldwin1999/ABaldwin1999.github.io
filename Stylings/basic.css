@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "EB Garamond", cursive;
-  color: #026b87;
+  color: #01637e;
   text-align: center;
 }
 
@@ -14,4 +14,13 @@ a:visited {
   font-family: "Cormorant", cursive;
   height: auto;
   padding: 5px;
+}
+
+.filter-red {
+  filter: invert(80%) sepia(58%) saturate(6884%) hue-rotate(372deg) brightness(106%) contrast(100%);
+  opacity: 0.8;
+}
+
+.filter-red:hover {
+  opacity: 1;
 }

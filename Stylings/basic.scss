@@ -5,9 +5,9 @@ $font-body: "EB Garamond", cursive;
 $font-links: "Cormorant", cursive;
 
 $color-secondary: #ceb0f3;
-$color-primary: #026b87;
-$color-white: #fafafa;
-$color-footer: #fffdd0;
+$color-primary:#01637e;
+$color-pink: pink;
+$color-tertiary: #fffdd0;
 $color-underline: #a10606;
 
 *{
@@ -19,11 +19,21 @@ $color-underline: #a10606;
     text-align: center;
 }
 
+
+
 a:link,
 a:visited {
     text-decoration: none;
     font-family: $font-links;
     height: auto;
     padding: 5px;
+}
+
+  .filter-red{
+    filter: invert(80%) sepia(58%) saturate(6884%) hue-rotate(372deg) brightness(106%) contrast(100%);
+    opacity: 0.8;
+}
+.filter-red:hover{
+    opacity: 1;
 }
 
