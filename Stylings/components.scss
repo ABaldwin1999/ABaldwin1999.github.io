@@ -3,7 +3,7 @@
 nav {
     height: 50px;
     background-color: $color-tertiary;
-    border-bottom: 2px solid $color-secondary;
+    border-bottom: $main-border;
     color: $color-primary;
 
   }
@@ -13,7 +13,7 @@ nav {
   }
   
   .Intro {
-    padding-bottom: 20px;
+    padding-bottom: $med-space;
     h1 {
       font-family: $font-title;
       padding: 50px;
@@ -31,42 +31,45 @@ nav {
     img {
       height: 300px;
       width: auto;
-      padding: 10px 10px;
-      margin-bottom: 10px;
-      border: 2px dashed $color-underline;
+      padding: $small-space $small-space;
+      margin-bottom: $small-space;
+      border: $dashed-border;
       border-radius: 100px;
       background-color: $color-tertiary;
     }
     p {
-      padding: 10px;
+      padding: $small-space;
     }
   }
   .SelfIntroLeft {
     height: auto;
     width: 300px;
-    margin: 10px;
-    border-bottom: 2px dashed $color-underline;
+    margin: $small-space;
+    border-bottom: $dashed-border;
   }
   
   .subTitle {
-    padding-top: 20px;
+    padding-top: $med-space;
     text-align: center;
     font-size: 2rem;
     text-decoration: underline $color-underline;
-    margin-top: 10px;
+    margin-top: $small-space;
+    &--borded{
+      border-top: 2px solid $color-pink;
+    }
   }
 
   .PortfolioProjects{
-    padding: 20px;
+    padding: $med-space;
     .PortfolioProject {
       width: 200px;
       height: auto;
       text-align: left;
-      margin: 10px;
-      border-radius: 20px;
+      margin: $small-space;
+      border-radius: $med-space;
       background-color: $color-tertiary;
       color: $color-primary;
-      border: 2px dashed $color-underline;
+      border: $dashed-border;
       img {
         display: block;
         margin-left: auto;
@@ -81,13 +84,11 @@ nav {
       }
     }
   }
-  #myPortfolio{
-    border-top: 2px solid $color-pink;
-  }
+ 
 
   .Technical{
       text-align: center;
-      padding: 20px;
+      padding: $med-space;
       &-Skills{
         width: 100px;
         height: auto;
@@ -100,9 +101,6 @@ nav {
         }
       }
   } 
-#TechTitle{
-    border-top: 2px solid $color-pink;
-  }
 
   .About {
       padding-bottom: 40px;
@@ -110,7 +108,7 @@ nav {
       text-align: start;
       width: 350px;
       li {
-        padding: 10px;
+        padding: $small-space;
         list-style: none;
       }
       li:hover{
@@ -121,16 +119,14 @@ nav {
       }
     }
   }
-  #aboutMe{
-    border-top: 2px solid $color-pink;
-  }
+
   
 footer{
     background-color: $color-tertiary;
-    font-size: 20px;
-    border-top: 2px solid $color-secondary;
+    font-size: $med-space;
+    border-top: $main-border;
     height: auto;
-    padding: 10px 10px;
+    padding: $small-space $small-space;
     img{
       width: 64px;
       opacity: 0.5;

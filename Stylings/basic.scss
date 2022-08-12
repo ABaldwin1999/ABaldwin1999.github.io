@@ -10,6 +10,12 @@ $color-pink: pink;
 $color-tertiary: #fffdd0;
 $color-underline: #a10606;
 
+$small-space: 10px;
+$med-space: 20px;
+
+$main-border:2px solid $color-secondary;
+$dashed-border:2px dashed $color-underline;
+
 *{
     margin: 0;
     padding:0;

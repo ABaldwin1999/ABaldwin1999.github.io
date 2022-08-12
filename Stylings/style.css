@@ -127,6 +127,9 @@ a:hover {
   text-decoration: underline #a10606;
   margin-top: 10px;
 }
+.subTitle--borded {
+  border-top: 2px solid pink;
+}
 
 .PortfolioProjects {
   padding: 20px;
@@ -154,10 +157,6 @@ a:hover {
   opacity: 1;
 }
 
-#myPortfolio {
-  border-top: 2px solid pink;
-}
-
 .Technical {
   text-align: center;
   padding: 20px;
@@ -174,10 +173,6 @@ a:hover {
   padding: 10%;
 }
 
-#TechTitle {
-  border-top: 2px solid pink;
-}
-
 .About {
   padding-bottom: 40px;
 }
@@ -191,10 +186,6 @@ a:hover {
 }
 .About-Box li:hover summary {
   color: #a10606;
-}
-
-#aboutMe {
-  border-top: 2px solid pink;
 }
 
 footer {
