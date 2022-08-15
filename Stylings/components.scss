@@ -46,6 +46,7 @@ nav {
     width: 300px;
     margin: $small-space;
     border-bottom: $dashed-border;
+    text-align: right;
   }
   
   .subTitle {
@@ -56,6 +57,9 @@ nav {
     margin-top: $small-space;
     &--borded{
       border-top: 2px solid $color-pink;
+    }
+    &--intro{
+      text-align: left;
     }
   }
 

@@ -118,6 +118,7 @@ a:hover {
   width: 300px;
   margin: 10px;
   border-bottom: 2px dashed #a10606;
+  text-align: right;
 }
 
 .subTitle {
@@ -129,6 +130,9 @@ a:hover {
 }
 .subTitle--borded {
   border-top: 2px solid pink;
+}
+.subTitle--intro {
+  text-align: left;
 }
 
 .PortfolioProjects {
